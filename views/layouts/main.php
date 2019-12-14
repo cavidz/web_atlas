@@ -47,48 +47,51 @@ AppAsset::register($this);
                     </a>
                     
                     <ul class="main-navigation js-main-nav" role="menubar">
-                        <li class="menu-item-has-children current-menu-item">
+                        <li class="current-menu-item">
                             <a href="index.html">Home</a>
+                        </li>
+                        <li class="menu-item-has-children">
+                            <a href="about.html">About</a>
                             <ul class="sub-menu">
                                 <li>
-                                    <a href="index.html">Slideshow</a>
+                                    <a href="">Company Profile</a>
                                 </li>
                                 <li>
-                                    <a href="index_static.html">Static image</a>
+                                    <a href="">Quality Policy</a>
                                 </li>
                                 <li>
-                                    <a href="index_video.html">Video background</a>
+                                    <a href="">Quality Management</a>
+                                </li>
+                                <li>
+                                    <a href="">Occupational Health And Safety</a>
+                                </li>
+                                <li>
+                                    <a href="">Mission And Vision</a>
                                 </li>
                             </ul>
                         </li>
                         <li>
-                            <a href="about.html">About</a>
-                        </li>
+                            <a href="">Projects</a>
+                        </li>                  
                         <li class="menu-item-has-children">
                             <a href="services.html">Services</a>
                             <ul class="sub-menu">
                                 <li>
-                                    <a href="construction-consultant.html">Construction Consultant</a>
+                                    <a href="construction-consultant.html">Steel Construction</a>
                                 </li>
                                 <li>
-                                    <a href="green-building.html">Green Building</a>
+                                    <a href="green-building.html">Tunnel Formworks</a>
                                 </li>
                                 <li>
-                                    <a href="laminate-flooring.html">Laminate Flooring</a>
+                                    <a href="laminate-flooring.html">Stainless Steel</a>
                                 </li>
                                 <li>
-                                    <a href="house-renovation.html">House Renovation</a>
+                                    <a href="house-renovation.html">Concrete Formworks</a>
                                 </li>
                                 <li>
-                                    <a href="general-contracting.html">General Contracting</a>
-                                </li>
-                                <li>
-                                    <a href="metal-roofing.html">Metal Roofing</a>
+                                    <a href="metal-roofing.html">Ship</a>
                                 </li>
                             </ul>
-                        </li>
-                        <li>
-                            <a href="projects.html">Projects</a>
                         </li>
                         <li>
                             <a href="news.html">News</a>
@@ -288,6 +291,8 @@ AppAsset::register($this);
 
     </div><!-- /.jumbotron -->
 
+    <?= $content; ?>
+
 </div>
 
 <footer class="footer">
@@ -302,7 +307,7 @@ AppAsset::register($this);
                         <img src="images/logo.png" alt="Footer Logo">
                         <br><br>
                         <p>
-                            StructurePress - Premium WordPress theme made for construction businessess now available on Themefores just for $59
+                            Atlas Engineering - Manufacturing and installation of metal constructions
                         </p>
                     </div>
                 </div><!-- /.col -->
@@ -312,25 +317,13 @@ AppAsset::register($this);
                         <h6 class="footer-top__headings">EXTRAS</h6>
                         <ul class="menu">
                             <li>
-                                <a href="extras.html">Extras</a>
-                            </li>
-                            <li>
                                 <a href="jobs.html">Jobs</a>
                             </li>
                             <li>
                                 <a href="pricing-tables.html">Pricing Tables</a>
                             </li>
                             <li>
-                                <a href="skype-button.html">Skype Button</a>
-                            </li>
-                            <li>
-                                <a href="brochure-box.html">Brochure Box</a>
-                            </li>
-                            <li>
-                                <a href="number-counter.html">Number Counter</a>
-                            </li>
-                            <li>
-                                <a href="steps.html">Steps</a>
+                                <a href="brochure-box.html">Brochure</a>
                             </li>
                         </ul>
                     </div><!-- /.widget -->
@@ -338,23 +331,23 @@ AppAsset::register($this);
                 
                 <div class="col-xs-12 col-md-3">
                     <div class="widget widget_nav_menu">
-                        <h6 class="footer-top__headings">OUR SERVICES</h6>
+                        <h6 class="footer-top__headings">SERVICES</h6>
                         <div>
                             <ul class="menu">
                                 <li>
-                                    <a href="metal-roofing.html">Metal Roofing</a>
+                                    <a href="metal-roofing.html">Steel Construction</a>
                                 </li>
                                 <li>
-                                    <a href="construction-consultant.html">Construction Consultant</a>
+                                    <a href="construction-consultant.html">Tunnel Formworks</a>
                                 </li>
                                 <li>
-                                    <a href="green-building.html">Green Building</a>
+                                    <a href="green-building.html">Stainless Steel</a>
                                 </li>
                                 <li>
-                                    <a href="laminate-flooring.html">Laminate Flooring</a>
+                                    <a href="laminate-flooring.html">Concrete Formworks</a>
                                 </li>
                                 <li>
-                                    <a href="house-renovation.html">House Renovation</a>
+                                    <a href="house-renovation.html">Ship</a>
                                 </li>
                             </ul>
                         </div>
