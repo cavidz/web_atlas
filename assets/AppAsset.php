@@ -25,6 +25,7 @@ class AppAsset extends AssetBundle
         'css/featherlight.css',
     ];
     public $js = [
+        'js/jquery.js',
         'js/modernizr.custom.24530.js',
         'js/picturefill.min.js',
         'js/underscore.min.js?ver=1.6.0',
