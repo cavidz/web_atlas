@@ -299,7 +299,8 @@
                             <a href="blog/springtime-renovation-get-your-windows-winter-ready.html">Springtime Renovation: Get Your Windows Winter Ready</a>
                         </h4>
                         <div class="card-text  latest-news__text">
-                            For many potential buyers, kitchen is often a deciding factor before purcha sing or declining a house. Hence it is a smart move to renovate the Kitchen before putting your house for sale. More often than not, it can earn you about 70 percent return on investment once the sale is through. 
+                            For many potential buyers, kitchen is often a deciding factor before purcha sing or declining a house. Hence it is a smart move to renovate the Kitchen before putting your house for sale. More often than not, it can earn you about
+                             70 percent return on investment once the sale is through. 
                         </div>
                     </div><!-- /.card-block -->
                 </div><!-- /.card -->

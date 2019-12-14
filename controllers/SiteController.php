@@ -98,31 +98,46 @@ class SiteController extends Controller
         return $this->goHome();
     }
 
-    /**
-     * Displays contact page.
-     *
-     * @return Response|string
-     */
-    public function actionContact()
-    {
-        $model = new ContactForm();
-        if ($model->load(Yii::$app->request->post()) && $model->contact(Yii::$app->params['adminEmail'])) {
-            Yii::$app->session->setFlash('contactFormSubmitted');
-
-            return $this->refresh();
-        }
-        return $this->render('contact', [
-            'model' => $model,
-        ]);
-    }
-
-    /**
-     * Displays about page.
-     *
-     * @return string
-     */
     public function actionAbout()
     {
+        $this->layout = 'pages';
+
+        \Yii::$app->view->title = 'About';
+
         return $this->render('about');
+    }
+
+    public function actionServices()
+    {
+        $this->layout = 'pages';
+
+        \Yii::$app->view->title = 'Services';
+
+        return $this->render('services');
+    }
+
+    public function actionProjects()
+    {
+        $this->layout = 'pages';
+
+        \Yii::$app->view->title = 'Projects';
+
+        return $this->render('projects');
+    }
+
+    public function actionNews()
+    {
+        $this->layout = 'pages';
+
+        \Yii::$app->view->title = 'News';
+
+        return $this->render('news');
+    }
+
+    public function actionContact()
+    {
+        $this->layout = 'pages';
+
+        return $this->render('contact');
     }
 }

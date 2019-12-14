@@ -1,11 +1,11 @@
 <div class="page-header">
     <div class="container">
-        <h1 class="page-header__title  display-1">Contact</h1>
-        <p class="page-header__subtitle">Get in Touch With Us</p>
+        <h1 class="page-header__title  display-1">Projects</h1>
+        <p class="page-header__subtitle">Our Buildings and Projects</p>
     </div>
 </div><!-- /.page-header -->
 
-<div class="breadcrumbs margin-bottom-0">
+<div class="breadcrumbs">
     
     <div class="container">
         
@@ -13,7 +13,7 @@
             <a rel="v:url" property="v:title" title="Go to AtlasEngineering." href="/" class="home">AtlasEngineering</a>
         </span>
         <span typeof="v:Breadcrumb">
-            <span property="v:title">Contact</span>
+            <span property="v:title">Projects</span>
         </span>
     
     </div><!-- /.container -->

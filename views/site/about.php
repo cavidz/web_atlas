@@ -1,18 +1,21 @@
-<?php
+<div class="page-header">
+	<div class="container">
+		<h1 class="page-header__title  display-1">About</h1>
+		<p class="page-header__subtitle">What We Do and Who We Are</p>
+	</div>
+</div><!-- /.page-header -->
 
-/* @var $this yii\web\View */
+<div class="breadcrumbs">
+	
+	<div class="container">
+		
+		<span typeof="v:Breadcrumb">
+            <a rel="v:url" property="v:title" title="Go to AtlasEngineering." href="/" class="home">AtlasEngineering</a>
+        </span>
+		<span typeof="v:Breadcrumb">
+			<span property="v:title">About</span>
+		</span>
+	
+	</div><!-- /.container -->
 
-use yii\helpers\Html;
-
-$this->title = 'About';
-$this->params['breadcrumbs'][] = $this->title;
-?>
-<div class="site-about">
-    <h1><?= Html::encode($this->title) ?></h1>
-
-    <p>
-        This is the About page. You may modify the following file to customize its content:
-    </p>
-
-    <code><?= __FILE__ ?></code>
-</div>
+</div><!-- /.breadcrumbs -->
