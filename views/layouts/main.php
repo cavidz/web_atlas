@@ -361,11 +361,14 @@ AppAsset::register($this);
                             <span class="icon-container">
                                 <span class="fa fa-map-marker"></span>
                             </span>
-                            227 Marion Street Avenue, UK<br>
+                            507 Street, 2006 Dernegul highway<br>
+                            <span class="icon-container">
+                            </span>
+                            Baku, Azerbaijan<br>
                             <span class="icon-container">
                                 <span class="fa fa-phone"></span>
                             </span> 
-                            1-888-123-4567<br>
+                            +99 412 566 74 43<br>
                             <span class="icon-container">
                                 <span class="fa fa-envelope"></span>
                             </span>
@@ -374,7 +377,7 @@ AppAsset::register($this);
                             <span class="icon-container">
                                 <span class="fa fa-globe"></span>
                             </span> 
-                            www.structurepress.com
+                            www.atlasengineering.az
                         </p>
                         <p>
                             <a class="icon-container" href="https://www.facebook.com/ProteusThemes/" target="_self">
