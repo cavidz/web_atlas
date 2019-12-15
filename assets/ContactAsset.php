@@ -30,7 +30,7 @@ class ContactAsset extends AssetBundle
         'js/picturefill.min.js',
         'js/underscore.min.js?ver=1.6.0',
         'js/featherlight.js',
-        '//maps.google.com/maps/api/js?key=AIzaSyCPE0xyBIWGbDBX_GbOMtCxviqs2eSu9_0',
+        '//maps.google.com/maps/api/js?v=3&key=AIzaSyD4io4mSixRWpPwAymkuXPzRt5jbTlK70Q',
         'js/map.js',
         'js/validator.js',
     ];
