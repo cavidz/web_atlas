@@ -9,9 +9,9 @@
               latitude: posLatitude,
               longitude: posLongitude
             },
-            text: '<div class="map-popup"><h4>Альтернативные Линии</h4><p>Качественная доставка Ваших грузов.</p></div>',
+            text: '<div class="map-popup"><h4>Atlas Engineering</h4><p>Metall Construction</p></div>',
             icon_url: $('#map').data('marker-img'),
-            zoom: 15
+            zoom: 17
           }, options);
 
           var coords = new google.maps.LatLng(settings.home.latitude, settings.home.longitude);
@@ -22,16 +22,16 @@
             var options = {
               zoom: settings.zoom,
               center: coords,
-              mapTypeId: google.maps.MapTypeId.ROADMAP,
+              mapTypeId: google.maps.MapTypeId.SATELLITE,
               mapTypeControl: false,
               scaleControl: false,
-              streetViewControl: false,
+              streetViewControl: true,
               panControl: true,
               disableDefaultUI: true,
               zoomControlOptions: {
                 style: google.maps.ZoomControlStyle.DEFAULT
               },
-              overviewMapControl: true,
+              overviewMapControl: false,
             };
 
             var map = new google.maps.Map(element[0], options);
@@ -44,7 +44,7 @@
             var marker = new google.maps.Marker({
               position: coords,
               map: map,
-              icon: icon,
+              icon: '/images/transparent.png',
               draggable: false
             });
 

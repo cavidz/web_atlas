@@ -21,5 +21,5 @@
 </div><!-- /.breadcrumbs -->
 
 <section class="map margin-bottom-60">
-    <div id="map" data-position-latitude="59.835570" data-position-longitude="30.213671"></div>
+    <div id="map" data-position-latitude="40.4302890" data-position-longitude="49.8781440"></div>
 </section>
