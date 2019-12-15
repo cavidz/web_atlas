@@ -2031,6 +2031,12 @@ section.map {
 	height: 480px;
 }
 
+#map {
+  position: relative;
+  height: 350px;
+  width: 100%;
+}
+
 
 /* 05.40. Homepage Video */
 .homepage-hero-module { border-right: none; border-left: none; position: relative; height: 600px;}
