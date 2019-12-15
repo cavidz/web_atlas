@@ -53,20 +53,21 @@ jQuery(document).ready(function($) {
                 position: google.maps.ControlPosition.LEFT_BOTTOM
             },
             
-            center: new google.maps.LatLng(59.960111, 30.383968),
+            center: new google.maps.LatLng(40.4302890, 49.8781440),
         
         };
         map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
 
 
-        var mark_lat = $(this).attr('data-lat');
-        var mark_lng = $(this).attr('data-lng');
-        var this_index = $('.addresses-block a').index(this);
-        var mark_name = 'template_marker_'+this_index;
-        var mark_locat = new google.maps.LatLng(mark_lat, mark_lng);
-        var mark_str = $(this).attr('data-string');
-        addMarker(mark_locat,mark_name,mark_str);   
-        
+        $('.addresses-block a').each(function(){
+            var mark_lat = $(this).attr('data-lat');
+            var mark_lng = $(this).attr('data-lng');
+            var this_index = $('.addresses-block a').index(this);
+            var mark_name = 'template_marker_'+this_index;
+            var mark_locat = new google.maps.LatLng(mark_lat, mark_lng);
+            var mark_str = $(this).attr('data-string');
+            addMarker(mark_locat,mark_name,mark_str);
+        });
     }
 
     $(window).on('load', function(){
