@@ -1,146 +1,76 @@
-      (function($) {
-        $.fn.CustomMap = function(options) {
+$(function() {
 
-          var posLatitude = $('#map').data('position-latitude'),
-            posLongitude = $('#map').data('position-longitude');
-
-          var settings = $.extend({
-            home: {
-              latitude: posLatitude,
-              longitude: posLongitude
-            },
-            text: '<div class="map-popup"><h4>Atlas Engineering</h4><p>Metall Construction</p></div>',
-            icon_url: $('#map').data('marker-img'),
-            zoom: 17
-          }, options);
-
-          var coords = new google.maps.LatLng(settings.home.latitude, settings.home.longitude);
-
-          return this.each(function() {
-            var element = $(this);
-
-            var options = {
-              zoom: settings.zoom,
-              center: coords,
-              mapTypeId: google.maps.MapTypeId.SATELLITE,
-              mapTypeControl: false,
-              scaleControl: false,
-              streetViewControl: true,
-              panControl: true,
-              disableDefaultUI: true,
-              zoomControlOptions: {
-                style: google.maps.ZoomControlStyle.DEFAULT
-              },
-              overviewMapControl: false,
-            };
-
-            var map = new google.maps.Map(element[0], options);
-
-            var icon = {
-              url: settings.icon_url,
-              origin: new google.maps.Point(0, 0)
-            };
-
-            var marker = new google.maps.Marker({
-              position: coords,
-              map: map,
-              icon: '/images/transparent.png',
-              draggable: false
-            });
-
-            var info = new google.maps.InfoWindow({
-              content: settings.text
-            });
-
-            google.maps.event.addListener(marker, 'click', function() {
-              info.open(map, marker);
-            });
-
-            var styles = [{
-              "featureType": "landscape",
-              "stylers": [{
-                "saturation": -100
-              }, {
-                "lightness": 65
-              }, {
-                "visibility": "on"
-              }]
-            }, {
-              "featureType": "poi",
-              "stylers": [{
-                "saturation": -100
-              }, {
-                "lightness": 51
-              }, {
-                "visibility": "simplified"
-              }]
-            }, {
-              "featureType": "road.highway",
-              "stylers": [{
-                "saturation": -100
-              }, {
-                "visibility": "simplified"
-              }]
-            }, {
-              "featureType": "road.arterial",
-              "stylers": [{
-                "saturation": -100
-              }, {
-                "lightness": 30
-              }, {
-                "visibility": "on"
-              }]
-            }, {
-              "featureType": "road.local",
-              "stylers": [{
-                "saturation": -100
-              }, {
-                "lightness": 40
-              }, {
-                "visibility": "on"
-              }]
-            }, {
-              "featureType": "transit",
-              "stylers": [{
-                "saturation": -100
-              }, {
-                "visibility": "simplified"
-              }]
-            }, {
-              "featureType": "administrative.province",
-              "stylers": [{
-                "visibility": "on"
-              }]
-            }, {
-              "featureType": "water",
-              "elementType": "labels",
-              "stylers": [{
-                "visibility": "on"
-              }, {
-                "lightness": -25
-              }, {
-                "saturation": -100
-              }]
-            }, {
-              "featureType": "water",
-              "elementType": "geometry",
-              "stylers": [{
-                "hue": "#ffff00"
-              }, {
-                "lightness": -25
-              }, {
-                "saturation": -97
-              }]
-            }];
-
-            map.setOptions({
-              styles: styles
-            });
-          });
-
+    var marker = [], infowindow = [], map,
+        image = {
+            url: '/img/marker.png',
+            //size: new google.maps.Size(61, 60),
+            //anchor: new google.maps.Point(30, 30)
         };
-      }(jQuery));
 
-      jQuery(document).ready(function() {
-        jQuery('#map').CustomMap();
-      });
+    function addMarker(location,name,contentstr){
+        marker[name] = new google.maps.Marker({
+            position: location,
+            map: map,
+            icon: image,
+        });
+        marker[name].setMap(map);
+        
+        infowindow[name] = new google.maps.InfoWindow({
+            content:contentstr
+        });
+        
+        google.maps.event.addListener(marker[name], 'click', function() {
+            infowindow[name].open(map,marker[name]);
+        });
+    }
+    
+    function initialize() {
+        var lat = $('#map-canvas').attr("data-lat");
+        var lng = $('#map-canvas').attr("data-lng");
+
+        var myLatlng = new google.maps.LatLng(lat,lng);
+
+        var setZoom = parseInt($('#map-canvas').attr("data-zoom"));
+
+        var styles = [{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"color":"#444444"}]},{"featureType":"administrative.country","elementType":"geometry.fill","stylers":[{"visibility":"off"}]},{"featureType":"administrative.country","elementType":"geometry.stroke","stylers":[{"visibility":"off"}]},{"featureType":"administrative.country","elementType":"labels.text","stylers":[{"visibility":"off"}]},{"featureType":"administrative.country","elementType":"labels.text.fill","stylers":[{"visibility":"off"}]},{"featureType":"administrative.country","elementType":"labels.text.stroke","stylers":[{"visibility":"off"}]},{"featureType":"administrative.country","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"administrative.province","elementType":"geometry.stroke","stylers":[{"visibility":"off"}]},{"featureType":"administrative.province","elementType":"labels.text","stylers":[{"visibility":"off"}]},{"featureType":"administrative.locality","elementType":"labels.text","stylers":[{"visibility":"off"}]},{"featureType":"landscape","elementType":"all","stylers":[{"color":"#f2f2f2"}]},{"featureType":"poi","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"poi.business","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"all","stylers":[{"saturation":-100},{"lightness":45}]},{"featureType":"road","elementType":"geometry.stroke","stylers":[{"visibility":"off"}]},{"featureType":"road.highway","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"road.highway","elementType":"labels.text","stylers":[{"visibility":"off"}]},{"featureType":"road.arterial","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"labels.text","stylers":[{"visibility":"off"}]},{"featureType":"transit.station","elementType":"labels.text","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"all","stylers":[{"color":"#485b77"},{"visibility":"on"}]}];
+        //var styledMap = new google.maps.StyledMapType(styles,{name: "Styled Map"});
+
+        var mapOptions = {
+            scrollwheel: false,
+            zoom: setZoom,
+            
+            panControl: true,
+            panControlOptions: {
+                position: google.maps.ControlPosition.LEFT_BOTTOM
+            },
+            zoomControl: true,
+            zoomControlOptions: {
+                style: google.maps.ZoomControlStyle.LARGE,
+                position: google.maps.ControlPosition.LEFT_BOTTOM
+            },
+            streetViewControl: true,
+            streetViewControlOptions: {
+                position: google.maps.ControlPosition.LEFT_BOTTOM
+            },
+            
+            center: new google.maps.LatLng(59.960111, 30.383968),
+        
+        };
+        map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
+
+
+        var mark_lat = $(this).attr('data-lat');
+        var mark_lng = $(this).attr('data-lng');
+        var this_index = $('.addresses-block a').index(this);
+        var mark_name = 'template_marker_'+this_index;
+        var mark_locat = new google.maps.LatLng(mark_lat, mark_lng);
+        var mark_str = $(this).attr('data-string');
+        addMarker(mark_locat,mark_name,mark_str);   
+        
+    }
+
+    $(window).on('load', function(){
+        setTimeout(function(){initialize();}, 500);
+    });
+
+});

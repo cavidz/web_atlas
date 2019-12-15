@@ -21,5 +21,8 @@
 </div><!-- /.breadcrumbs -->
 
 <section class="map margin-bottom-60">
-    <div id="map" data-position-latitude="40.4302890" data-position-longitude="49.8781440"></div>
+    <div id="map-canvas" data-lat="40.4302890" data-lng="49.8781440" data-zoom="15"></div>
+    <div class="addresses-block">
+        <a data-lat="40.4302890" data-lng="49.8781440" data-string="Atlas Engineering"></a>
+    </div>
 </section>
