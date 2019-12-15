@@ -25,7 +25,6 @@ $(function() {
     }
     
     function initialize() {
-
         var lat = $('#map-canvas').attr("data-lat");
         var lng = $('#map-canvas').attr("data-lng");
 
