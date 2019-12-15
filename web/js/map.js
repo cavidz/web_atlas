@@ -2,7 +2,7 @@ $(function() {
 
     var marker = [], infowindow = [], map,
         image = {
-            url: '/img/marker.png',
+            url: '/images/marker.png',
             //size: new google.maps.Size(61, 60),
             //anchor: new google.maps.Point(30, 30)
         };
