@@ -15,7 +15,7 @@ use yii\web\AssetBundle;
  * @author Qiang Xue <qiang.xue@gmail.com>
  * @since 2.0
  */
-class PagesAsset extends AssetBundle
+class ContactAsset extends AssetBundle
 {
     public $basePath = '@webroot';
     public $baseUrl = '@web';
@@ -30,7 +30,9 @@ class PagesAsset extends AssetBundle
         'js/picturefill.min.js',
         'js/underscore.min.js?ver=1.6.0',
         'js/featherlight.js',
+        '//maps.google.com/maps/api/js?key=AIzaSyCPE0xyBIWGbDBX_GbOMtCxviqs2eSu9_0',
         'js/main.min.js?ver=1.1.0-3-g4c75ad2',
+        'js/validator.js',
     ];
     public $depends = [
         //'yii\web\YiiAsset',

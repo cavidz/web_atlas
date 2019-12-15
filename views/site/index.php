@@ -427,11 +427,11 @@
                                                 <img src="images/testimonials-2-300x300.jpg" alt="">
                                             </div>
                                             <div class="testimonial__author">
-                                                <cite class="testimonial__author-name">Alan Owens</cite>
+                                                <cite class="testimonial__author-name">John Doe</cite>
                                                 <div>OWN Inc.</div>
                                             </div>
                                             <p class="testimonial__quote">
-                                                The StructurePress team was very sufficient in maintaining the integrity of this project in terms of planning, scheduling, cost and quality, and their team’s ability to work in person with owners, architects, designers and planner makes them a leader in their field.
+                                                The Atlas Engineering team was very sufficient in maintaining the integrity of this project in terms of planning, scheduling, cost and quality, and their team’s ability to work in person with owners, architects, designers and planner makes them a leader in their field.
                                             </p>
                                         </blockquote>
                                     </div>
@@ -446,11 +446,11 @@
                                                 <img src="images/testimonials-4-300x300.jpg" alt="">
                                             </div>
                                             <div class="testimonial__author">
-                                                <cite class="testimonial__author-name">Rebecca Watson</cite>
+                                                <cite class="testimonial__author-name">Jeanne Doe</cite>
                                                 <div>R. W. Construction Inc.</div>
                                             </div>
                                             <p class="testimonial__quote">
-                                                StructrePress company has performed in a consistent, demanding and professional manner. They have got my project on time with the competition with a highly skilled, well-organized and experienced team of professional construction managers. Our company is looking forward to hire them again.
+                                                Atlas Engineering company has performed in a consistent, demanding and professional manner. They have got my project on time with the competition with a highly skilled, well-organized and experienced team of professional construction managers. Our company is looking forward to hire them again.
                                             </p>
                                         </blockquote>
                                     </div>
@@ -465,11 +465,11 @@
                                                 <img src="images/testimonials-3-300x300.jpg" alt="">
                                             </div>
                                             <div class="testimonial__author">
-                                                <cite class="testimonial__author-name">John Weller</cite>
+                                                <cite class="testimonial__author-name">Johnny Walker</cite>
                                                 <div>Welling Design &amp; Engineering</div>
                                             </div>
                                             <p class="testimonial__quote">
-                                                As the architect for major projects I really like to collaborte with StructurePress company. We are particularly organized through the construction process. My own project was a great example of contractors and architects working as a team for the good of the project and its users.
+                                                As the architect for major projects I really like to collaborte with Atlas Engineering company. We are particularly organized through the construction process. My own project was a great example of contractors and architects working as a team for the good of the project and its users.
                                             </p>
                                         </blockquote>
                                     </div>

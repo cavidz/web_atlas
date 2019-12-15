@@ -136,7 +136,7 @@ class SiteController extends Controller
 
     public function actionContact()
     {
-        $this->layout = 'pages';
+        $this->layout = 'contact';
 
         return $this->render('contact');
     }
