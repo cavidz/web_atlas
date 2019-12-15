@@ -31,7 +31,7 @@ class ContactAsset extends AssetBundle
         'js/underscore.min.js?ver=1.6.0',
         'js/featherlight.js',
         '//maps.google.com/maps/api/js?key=AIzaSyCPE0xyBIWGbDBX_GbOMtCxviqs2eSu9_0',
-        'js/main.min.js?ver=1.1.0-3-g4c75ad2',
+        'js/map.js',
         'js/validator.js',
     ];
     public $depends = [

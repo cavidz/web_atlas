@@ -20,4 +20,6 @@
 
 </div><!-- /.breadcrumbs -->
 
-<section class="map margin-bottom-60"></section>
+<section class="map margin-bottom-60">
+    <div id="map" data-position-latitude="59.835570" data-position-longitude="30.213671"></div>
+</section>
