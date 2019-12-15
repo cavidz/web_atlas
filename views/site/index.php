@@ -159,7 +159,7 @@
                                         <a class="card portfolio-grid__card js-wpg-card" href="projects/greenhouse-construction.html">
                                             <img width="360" height="240" src="images/19-360x240.jpg" class="portfolio-grid__card-img" alt="19"> 
                                             <div class="card-block portfolio-grid__card-block">
-                                                <h5>Greenhouse Construction</h5>
+                                                <h5>DHT (Baku Steel Company)</h5>
                                                 <p>Nov 2015</p>
                                             </div>
                                         </a>
@@ -168,7 +168,7 @@
                                         <a class="card portfolio-grid__card js-wpg-card" href="projects/modern-kitchen-renovation.html">
                                             <img width="360" height="240" src="images/93-360x240.jpg" class="portfolio-grid__card-img" alt="93">
                                             <div class="card-block portfolio-grid__card-block">
-                                                <h5>Modern Kitchen</h5>
+                                                <h5>Emporium</h5>
                                                 <p>September 2015</p>
                                             </div>
                                         </a>
@@ -177,7 +177,7 @@
                                         <a class="card portfolio-grid__card js-wpg-card" href="projects/outdoor-light-fixtures.html">
                                             <img width="360" height="240" src="images/45-360x240.jpg" class="portfolio-grid__card-img" alt="45">
                                             <div class="card-block portfolio-grid__card-block">
-                                                <h5>Outdoor Light Fixtures</h5>
+                                                <h5>Mall 28 - Cinema 28</h5>
                                                 <p>August 2015</p>
                                             </div>
                                         </a>
@@ -186,7 +186,7 @@
                                         <a class="card portfolio-grid__card js-wpg-card" href="projects/family-pool.html">
                                             <img width="360" height="240" src="images/2-360x240.jpg" class="portfolio-grid__card-img" alt="2">
                                             <div class="card-block portfolio-grid__card-block">
-                                                <h5>Family Pool</h5>
+                                                <h5>Port Baku</h5>
                                                 <p>October 2015</p>
                                             </div>
                                         </a>
@@ -200,7 +200,7 @@
                                         <a class="card portfolio-grid__card js-wpg-card" href="projects/staircase-addition.html">
                                             <img width="360" height="240" src="images/38-360x240.jpg" class="portfolio-grid__card-img" alt="38">
                                             <div class="card-block portfolio-grid__card-block">
-                                                <h5>Staircase Addition</h5>
+                                                <h5>Zqan</h5>
                                                 <p>November 2015</p>
                                             </div>
                                         </a>
@@ -209,7 +209,7 @@
                                         <a class="card portfolio-grid__card js-wpg-card" href="projects/townhouse-facade-adaptation.html">
                                             <img width="360" height="240" src="images/62-360x240.jpg" class="portfolio-grid__card-img" alt="62">
                                             <div class="card-block portfolio-grid__card-block">
-                                                <h5>Townhouse Facade</h5>
+                                                <h5>Villa</h5>
                                                 <p>October 2015</p>
                                             </div>
                                         </a>
@@ -218,7 +218,7 @@
                                         <a class="card portfolio-grid__card  js-wpg-card" href="projects/family-house-plans.html">
                                             <img width="360" height="240" src="images/108-360x240.jpg" class="portfolio-grid__card-img" alt="108">
                                             <div class="card-block portfolio-grid__card-block">
-                                                <h5>Family House Plans</h5>
+                                                <h5>Emporium</h5>
                                                 <p>November 2015</p>
                                             </div>
                                         </a>
@@ -227,7 +227,7 @@
                                         <a class="card portfolio-grid__card js-wpg-card" href="projects/gas-chimney-adaptation.html">
                                             <img width="360" height="240" src="images/7-360x240.jpg" class="portfolio-grid__card-img" alt="7">
                                             <div class="card-block portfolio-grid__card-block">
-                                                <h5>Gas Chimney Adaptation</h5>
+                                                <h5>DHT (Baku Steel Company)</h5>
                                                 <p>Avgust 2015</p>
                                             </div>
                                         </a>
@@ -241,7 +241,7 @@
                                         <a class="card portfolio-grid__card js-wpg-card" href="projects/3d-modeling-living.html">
                                             <img width="360" height="240" src="images/105-360x240.jpg" class="portfolio-grid__card-img" alt="105">
                                             <div class="card-block portfolio-grid__card-block">
-                                                <h5>3D Modeling Living Room</h5>
+                                                <h5>Mall 28 - Cinema 28</h5>
                                                 <p>January 2015</p>
                                             </div>
                                         </a>
@@ -250,7 +250,7 @@
                                         <a class="card portfolio-grid__card js-wpg-card" href="projects/condo-neighborhood.html">
                                             <img width="360" height="240" src="images/5-360x240.jpg" class="portfolio-grid__card-img" alt="5">
                                             <div class="card-block portfolio-grid__card-block">
-                                                <h5>Condo Neighborhood</h5>
+                                                <h5>Zqan</h5>
                                                 <p>July 2015</p>
                                             </div>
                                         </a>
@@ -259,7 +259,7 @@
                                         <a class="card portfolio-grid__card js-wpg-card" href="projects/wooden-terrace.html">
                                             <img width="360" height="240" src="images/49-360x240.jpg" class="portfolio-grid__card-img" alt="49">
                                             <div class="card-block portfolio-grid__card-block">
-                                                <h5>Wooden Terrace</h5>
+                                                <h5>Villa</h5>
                                                 <p>October 2015</p>
                                             </div>
                                         </a>
@@ -296,11 +296,10 @@
                     <div class="card-block latest-news__content">
                         <time class="latest-news__date" datetime="2015-11-12T17:07:12+00:00">12 Nov 2015</time>
                         <h4 class="card-title  latest-news__title">
-                            <a href="blog/springtime-renovation-get-your-windows-winter-ready.html">Springtime Renovation: Get Your Windows Winter Ready</a>
+                            <a href="blog/springtime-renovation-get-your-windows-winter-ready.html">We have published our Year 2015 catalogue</a>
                         </h4>
                         <div class="card-text  latest-news__text">
-                            For many potential buyers, kitchen is often a deciding factor before purcha sing or declining a house. Hence it is a smart move to renovate the Kitchen before putting your house for sale. More often than not, it can earn you about
-                             70 percent return on investment once the sale is through. 
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                         </div>
                     </div><!-- /.card-block -->
                 </div><!-- /.card -->
@@ -316,10 +315,10 @@
                     <div class="card-block latest-news__content">
                         <time class="latest-news__date" datetime="2015-11-11T17:03:38+00:00">11 Nov 2015</time>
                         <h4 class="card-title latest-news__title">
-                            <a href="blog/before-making-your-dream-living-room-make-3d-room-model.html">Before Making Your Dream Living Room Make 3D Room Model</a>
+                            <a href="blog/before-making-your-dream-living-room-make-3d-room-model.html">We participated in Baku Build 2015</a>
                         </h4>
                         <div class="card-text latest-news__text">
-                            Home renovations, especially those involving plentiful of demolition can be a very dusty affair. This nasty dust can easily free flow through the air and into your house to form a thick film on your entire furniture, possessions and the floor.
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                         </div>
                     </div><!-- /.card-block -->
                 </div><!-- /.card -->
@@ -330,19 +329,19 @@
 
                 <a href="blog/framing-and-insulating-walls-in-warehouse-and-corporate-buildings.html" class="card latest-news  latest-news--inline">
                     <div class="card-block latest-news__content">
-                        <h4 class="card-title latest-news__title">Framing and Insulating Walls In Warehouse and Corporate Buildings</h4>
+                        <h4 class="card-title latest-news__title">We have published our Year 2015 catalogue</h4>
                         <time class="latest-news__date" datetime="2015-11-11T16:59:10+00:00">11 Nov 2015 </time>
                     </div>
                 </a>
                 <a href="blog/forget-backyard-build-a-swimming-pool-instead.html" class="card latest-news latest-news--inline">
                     <div class="card-block latest-news__content">
-                        <h4 class="card-title latest-news__title">Forget Backyard, Build a Swimming Pool Instead</h4>
+                        <h4 class="card-title latest-news__title">We participated in Baku Build 2015</h4>
                         <time class="latest-news__date" datetime="2015-11-11T16:55:10+00:00">11 Nov 2015 </time>
                     </div>
                 </a>
                 <a href="blog/adding-room-in-town-house-the-only-way-is-down.html" class="card latest-news latest-news--inline">
                     <div class="card-block latest-news__content">
-                        <h4 class="card-title latest-news__title">Adding Room in Town House: The Only Way to Go is Down</h4>
+                        <h4 class="card-title latest-news__title">We have finished new project</h4>
                         <time class="latest-news__date" datetime="2015-11-11T16:50:39+00:00">11 Nov 2015 </time>
                     </div>
                 </a>

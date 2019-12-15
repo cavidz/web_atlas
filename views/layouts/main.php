@@ -33,7 +33,7 @@ AppAsset::register($this);
             <div class="container">
                 <div class="header__logo">
                     <a href="/">
-                        <img src="images/logo.png" alt="StructurePress" srcset="images/logo.png, images/logo@2x.png 2x" class="img-fluid" width="269" height="70">
+                        <img src="images/logo.png" alt="Atlas Engineering" srcset="images/logo.png, images/logo@2x.png 2x" class="img-fluid" width="269" height="70">
                     </a>
                 </div>
                 <button class="btn btn-primary header__navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#structurepress-main-navigation">
@@ -162,10 +162,10 @@ AppAsset::register($this);
                     <img src="images/slider2.jpg" srcset="images/slider2.jpg 1920w, images/slider2-425x146.jpg 425w" sizes="100vw" alt="The Best Construction WordPress Theme">
                     <div class="container">
                         <div class="jumbotron-content">
-                            <h1 class="jumbotron-content__title">The Best Construction WordPress Theme</h1>
+                            <h1 class="jumbotron-content__title">The Best Metall Construction Solutions</h1>
                             <div class="jumbotron-content__description">
                                 <p>
-                                    We made just the most advanced and user-friendly construction theme (and probably the only one) in the world.
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                                 </p>
                                 <p>
                                     <a class="btn btn-primary" href="#" target="_self">READ MORE</a> 
@@ -180,10 +180,10 @@ AppAsset::register($this);
                     <img src="images/slider3.jpg" srcset="images/slider3.jpg 1920w, images/slider3-425x146.jpg 425w" sizes="100vw" alt="Dreaming of A New Unique Kitchen? ">
                     <div class="container">
                         <div class="jumbotron-content">
-                            <h1 class="jumbotron-content__title">Dreaming of A New Unique Kitchen?</h1>
+                            <h1 class="jumbotron-content__title">Dreaming of A New Unique Project?</h1>
                             <div class="jumbotron-content__description">
                                 <p>
-                                    StructurePress made over 200 kitchens worldwide. We offer free 3D modeling and 3 year warranty.
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                                 </p>
                                 <p>
                                     <a class="btn btn-primary" href="contact.html" target="_self">CONTACT US</a>
@@ -198,10 +198,10 @@ AppAsset::register($this);
                     <img src="images/slider1.jpg" srcset="images/slider1.jpg 1920w, images/slider1-425x146.jpg 425w" sizes="100vw" alt="Beautiful Green Living Spaces">
                     <div class="container">
                         <div class="jumbotron-content">
-                            <h1 class="jumbotron-content__title">Beautiful Green Living Spaces</h1>
+                            <h1 class="jumbotron-content__title">Beautiful Metal Constructions</h1>
                             <div class="jumbotron-content__description">
                                 <p>
-                                    We offer cataloges with over 50 prepared house plans made by best architects. Pick your house today.
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                                 </p>
                                 <p>
                                     <a class="btn btn-primary" href="brochure-box.html" target="_self">VIEW BROCHURES</a>
@@ -219,7 +219,7 @@ AppAsset::register($this);
                             <h1 class="jumbotron-content__title">Headquarters? We Got You Covered</h1>
                             <div class="jumbotron-content__description">
                                 <p>
-                                    Most efficient, functional green buildings for any company. Spaces for many years.
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                                 </p>
                                 <p>
                                     <a class="btn btn-primary" href="contact.html" target="_self">CONTACT US</a>
@@ -250,7 +250,7 @@ AppAsset::register($this);
                                 <i class="fa fa-phone"></i>
                                 <div class="icon-box__text">
                                     <h4 class="icon-box__title">Phone number:</h4>
-                                    <span class="icon-box__subtitle">1-800-506-266</span>
+                                    <span class="icon-box__subtitle">+99412-566-74-43</span>
                                 </div>
                             </div><!-- /.icon-box -->
                         </div>
@@ -270,7 +270,7 @@ AppAsset::register($this);
                                 <i class="fa fa-envelope-o"></i>
                                 <div class="icon-box__text">
                                     <h4 class="icon-box__title">E-mail address:</h4>
-                                    <span class="icon-box__subtitle">info[at]structure.com</span>
+                                    <span class="icon-box__subtitle">info[at]atlasenginering.az</span>
                                 </div>
                             </div><!-- /.icon-box -->
                         </div>
