@@ -108,7 +108,7 @@ AppAsset::register($this);
                             <i class="fa fa-phone"></i>
                             <div class="icon-box__text">
                                 <h4 class="icon-box__title">Phone number:</h4>
-                                <span class="icon-box__subtitle">1-800-506-266</span>
+                                <span class="icon-box__subtitle">+99412-566-74-43</span>
                             </div>
                         </div><!-- /.icon-box -->
                     </div><!-- /.widget-icon-box -->
@@ -128,7 +128,7 @@ AppAsset::register($this);
                             <i class="fa fa-envelope-o"></i>
                             <div class="icon-box__text">
                                 <h4 class="icon-box__title">E-mail address:</h4>
-                                <span class="icon-box__subtitle">info[at]structure.com</span>
+                                <span class="icon-box__subtitle">info[at]atlasengineering.az</span>
                             </div>
                         </div><!-- /.icon-box -->
                     </div>
