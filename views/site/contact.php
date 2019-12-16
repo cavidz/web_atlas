@@ -53,7 +53,7 @@
                                 <i class="fa fa-map-marker"></i>
                             </div>
                             <p class="contact-profile__text">
-                                227 Marion Street Avenue <br> Columbia SC 29201 <br> United Kingdom
+                                507 Street, 2006 Dernegul Highway <br> Narimanov district, Baku <br> Azerbaijan
                             </p>
                         </div>
                         <div class="contact-profile__item">
@@ -61,7 +61,7 @@
                                 <i class="fa fa-phone"></i>
                             </div>
                             <p class="contact-profile__text">
-                                1-888-123-4567
+                                +994-12-566-74-43
                             </p>
                         </div>
                         <div class="contact-profile__item">
@@ -77,7 +77,7 @@
                                 <i class="fa fa-compass"></i>
                             </div>
                             <p class="contact-profile__text">
-                                www.structure.com
+                                www.atlasengineering.az
                             </p>
                         </div>
                     </div><!-- /.contact-profile__items -->
@@ -154,7 +154,7 @@
                                 <i class="fa fa-map-marker"></i>
                             </div>
                             <p class="contact-profile__text">
-                                227 Marion Street Avenue <br> Columbia SC 29201 <br> United Kingdom
+                                507 Street, 2006 Dernegul Highway <br> Narimanov district, Baku <br> Azerbaijan
                             </p>
                         </div>
                         <div class="contact-profile__item">
@@ -162,7 +162,7 @@
                                 <i class="fa fa-phone"></i>
                             </div>
                             <p class="contact-profile__text">
-                                1-888-123-4567
+                                +994-12-566-74-43
                             </p>
                         </div>
                         <div class="contact-profile__item">
@@ -193,7 +193,7 @@
                                 <i class="fa fa-map-marker"></i>
                             </div>
                             <p class="contact-profile__text">
-                                227 Marion Street Avenue <br> Columbia SC 29201 <br> United Kingdom
+                                Postane mah. Rauf Orbay cad. no: 135/2 <br> Tuzla, Istanbul <br> Turkey
                             </p>
                         </div>
                         <div class="contact-profile__item">
@@ -201,7 +201,7 @@
                                 <i class="fa fa-phone"></i>
                             </div>
                             <p class="contact-profile__text">
-                                1-888-123-4567
+                                +90216-447-26-03
                             </p>
                         </div>
                         <div class="contact-profile__item">
@@ -232,7 +232,7 @@
                                 <i class="fa fa-map-marker"></i>
                             </div>
                             <p class="contact-profile__text">
-                                227 Marion Street Avenue <br> Columbia SC 29201 <br> United Kingdom
+                                551 Pylon Dr Ste A Raleigh <br> NYC 27606 <br> United States
                             </p>
                         </div>
                         <div class="contact-profile__item">
@@ -240,7 +240,7 @@
                                 <i class="fa fa-phone"></i>
                             </div>
                             <p class="contact-profile__text">
-                                1-888-123-4567
+                                +1-919-420-7676
                             </p>
                         </div>
                         <div class="contact-profile__item">
