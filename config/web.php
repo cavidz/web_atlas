@@ -7,6 +7,7 @@ $config = [
     'id' => 'basic',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
+    'language' => 'en-EN',
     'aliases' => [
         '@bower' => '@vendor/bower-asset',
         '@npm'   => '@vendor/npm-asset',
@@ -20,7 +21,7 @@ $config = [
             'class' => 'yii\caching\FileCache',
         ],
         'user' => [
-            'identityClass' => 'app\models\User',
+            'identityClass' => 'app\models\Admins',
             'enableAutoLogin' => true,
         ],
         'errorHandler' => [
@@ -48,8 +49,14 @@ $config = [
             'showScriptName' => false,
             'rules' => [
                 '<alias:index|about|services|projects|news|contact>' => 'site/<alias>',
+                '<action:(login|logout|admin)>' => 'site/<action>', 
                 'site' => 'site/index',
             ],
+        ],
+    ],
+    'modules' => [
+        'admin' => [
+            'class' => 'app\modules\admin\Module',
         ],
     ],
     'params' => $params,

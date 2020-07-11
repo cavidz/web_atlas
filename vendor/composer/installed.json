@@ -1,5 +1,50 @@
 [
     {
+        "name": "almasaeed2010/adminlte",
+        "version": "v2.x-dev",
+        "version_normalized": "2.9999999.9999999.9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ColorlibHQ/AdminLTE.git",
+            "reference": "86990d5b48f5b9d747ee14d67df7bb200ffc6f85"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/ColorlibHQ/AdminLTE/zipball/86990d5b48f5b9d747ee14d67df7bb200ffc6f85",
+            "reference": "86990d5b48f5b9d747ee14d67df7bb200ffc6f85",
+            "shasum": ""
+        },
+        "require": {
+            "bower-asset/jquery": ">=1.9.0 <4.0.0"
+        },
+        "time": "2019-11-02T15:21:42+00:00",
+        "type": "template",
+        "installation-source": "source",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Abdullah Almsaeed",
+                "email": "abdullah@almsaeedstudio.com"
+            }
+        ],
+        "description": "AdminLTE - admin control panel and dashboard that's based on Bootstrap 3",
+        "homepage": "https://adminlte.io/",
+        "keywords": [
+            "JS",
+            "admin",
+            "back-end",
+            "css",
+            "less",
+            "responsive",
+            "template",
+            "theme",
+            "web"
+        ]
+    },
+    {
         "name": "behat/gherkin",
         "version": "v4.6.0",
         "version_normalized": "4.6.0.0",

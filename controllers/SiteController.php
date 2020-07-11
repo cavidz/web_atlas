@@ -9,9 +9,14 @@ use yii\web\Response;
 use yii\filters\VerbFilter;
 use app\models\LoginForm;
 use app\models\ContactForm;
+use app\models\Admins;
 
 class SiteController extends Controller
 {
+    public $username;
+    public $position;
+    public $contacts;
+
     /**
      * {@inheritdoc}
      */
@@ -31,9 +36,7 @@ class SiteController extends Controller
             ],
             'verbs' => [
                 'class' => VerbFilter::className(),
-                'actions' => [
-                    'logout' => ['post'],
-                ],
+                'actions' => [],
             ],
         ];
     }
@@ -62,6 +65,46 @@ class SiteController extends Controller
     public function actionIndex()
     {
         return $this->render('index');
+    }
+
+    /**
+     * Admin action.
+     *
+     * @return string
+     */
+    public function actionAdmin()
+    {
+        $this->layout = 'login';
+
+        $model = new LoginForm();
+        $admins = new Admins();
+
+        Yii::$app->view->title = 'Админ Панель';
+        
+        if (!Yii::$app->user->isGuest) {
+            $this->layout = '@app/views/layouts/admin';
+
+            $user = Yii::$app->user;
+
+            $this->username = $user->identity->fullName();
+            $this->position = $user->identity->userInfo();
+            
+            return $this->render('@app/modules/admin/views/default/index', ['model' => $model]);
+        }
+        
+        if ($model->load(Yii::$app->request->post()) && $model->login()) {
+            $this->layout = '@app/views/layouts/admin';
+            $user = Yii::$app->user;
+            $profile = new Admins();
+
+            $this->username = $user->identity->fullName();
+            $this->position = $user->identity->userInfo();
+
+            return $this->render('@app/modules/admin/views/default/index', ['profile' => $profile]);
+        }
+        return $this->render('admin', [
+            'model' => $model, 'users' => $admins
+        ]);
     }
 
     /**
@@ -98,6 +141,9 @@ class SiteController extends Controller
         return $this->goHome();
     }
 
+    /**
+     * @return string
+     */
     public function actionAbout()
     {
         $this->layout = 'pages';
